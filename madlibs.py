@@ -3,8 +3,8 @@ def main():
 
  time = input ("Enter a number from 1 to 12: ")
  items = input ("Enter a noun (plural): ")
- name =  input ("Enter a name: ").capitalize()
- scream = input ("Enter any sentence: ").capitalize()
+ name =  input ("Enter a name: ").title()
+ scream = input ("Enter any sentence: ").upper()
  action = input ("Enter a verb:")
 
  print ("The story goes...")
